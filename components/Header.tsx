@@ -1,13 +1,11 @@
 import Link from "next/link";
-import logo from "../logo.svg";
-import Image from "next/image";
 
 const Header = () => {
   return (
     <header className="flex justify-between p-5 max-w-7xl mx-auto">
       <div className="flex items-center space-x-5">
         <Link href="/">
-          <Image src={logo} alt="logo" className="w-44 object-contain cursor-pointer" />
+          <img src="/logo.svg" alt="logo" className="w-44 object-contain cursor-pointer" />
         </Link>
         <div className="hidden md:inline-flex items-center space-x-5">
           <h3>About</h3>
