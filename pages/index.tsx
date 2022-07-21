@@ -14,7 +14,7 @@ const Home = ({ posts }: Props) => {
   return (
     <div className="mx-w-7xl mx-auto">
       <Head>
-        <title>Create Next App</title>
+        <title>Crypto News</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header />
